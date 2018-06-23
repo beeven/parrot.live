@@ -12,7 +12,7 @@ CLEAR_SCREEN = b"\033[H\033[J"
 
 def readFrames():
     return [
-r"""0
+r"""
                          .cccc;;cc;';c.           
                       .,:dkdc:;;:c:,:d:.          
                      .loc'.,cc::c:::,..;:.        
@@ -32,7 +32,7 @@ r"""0
 ,dx:..;lllllllllllllllllllllllllllllllllc'...     
 cNO;........................................      
 """,
-r"""1
+r"""
                 .ckx;'........':c.                
              .,:c:::::oxxocoo::::,',.             
             .odc'..:lkkoolllllo;..;d,             
@@ -52,7 +52,7 @@ r"""1
 :0o...:dxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxo,.:,     
 cNo........................................;'     
 """,
-r"""2
+r"""
             .cc;.  ...  .;c.                      
          .,,cc:cc:lxxxl:ccc:;,.                   
         .lo;...lKKklllookl..cO;                   
@@ -72,7 +72,7 @@ r"""2
   co..:dddddddddddddddddddddddddddddddddl::',::.  
   co...........................................   
 """,
-r"""3
+r"""
            .ccccccc.                              
       .,,,;cooolccoo;;,,.                         
      .dOx;..;lllll;..;xOd.                        
@@ -92,7 +92,7 @@ cNo..lXXXXXXXXXOolkXXXXXXXXXkl,..;:';.
   ';.:xxxxxocccoxxxxxxxxxxxxxxxxxxxxxxl::'.';;.   
   ';........................................;l'   
 """,
-r"""4                     
+r"""                    
 
         .;:;;,.,;;::,.                            
      .;':;........'co:.                           
@@ -112,7 +112,7 @@ o..,l;'''''';dkkkkkkkkkkkkkkkkkkkkdlc,..;lc.
 o..;lc;;;;;;,,;clllllllllllllllllllllc'..,:c.     
 o..........................................;'     
 """,
-r"""5                  
+r"""                  
 
            .,,,,,,,,,.                            
          .ckKxodooxOOdcc.                         
@@ -132,7 +132,7 @@ KOc,c;''''''';lldkkkkkkkkkkkkkkkkkc..;lc.
 xx:':;;;;,.,,...,;;cllllllllllllllc;'.;od,        
 cNo.....................................oc        
 """,
-r"""6                
+r"""                
 
                                                   
                    .ccccccc.                      
@@ -152,7 +152,7 @@ r"""6
 ,dl,.'cooc:::,....,::coooooooooooc'.c:            
 cNo.................................oc            
 """,
-r"""7
+r"""
                                                   
                                                   
                                                   
@@ -172,7 +172,7 @@ r"""7
 ,do:'..,:llllll:;;;;;;,..,;:lllllllll;..oc        
 cNo.....................................oc        
 """,
-r"""8
+r"""
                                                   
                                                   
                               .ccccc.             
@@ -192,7 +192,7 @@ r"""8
 olc,..',:cccccccccccc:;;;;;;;;:ccccccccc,.'c,     
 Ol;......................................;l'      
 """,
-r"""9
+r"""
                                                   
                               ,ddoodd,            
                          .cc' ,ooccoo,'cc.        
